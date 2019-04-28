@@ -1,0 +1,71 @@
+body{
+	background-image: url(../images/1.jpg);
+}
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:5px;
+	background-color: slategray;
+	padding: 5px;
+}
+.logo{
+	background-image: url(../images/);
+}
+.button{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+.button li{
+	list-style: none;
+	border: 2px black solid;
+	padding: 20px;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+}
+.showcase{
+	border-right: 2px black solid;
+	border-top: 2px black solid;
+	border-left: 2px black solid;
+	height: 60vh;
+	font-size: 30px;
+	color: silver;
+	padding: 10px 10px;;
+}
+p{
+	background-color: dimgray;
+}
+.text{
+	height: 10vh;
+	border-bottom: 2px black solid;
+	border-right: 2px black solid;
+	border-top: 2px black solid;
+	border-left: 2px black solid;
+	background-color: gray;
+}
+.pic{
+	border-bottom: 2px black solid;
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 30vh;
+	padding: 25px;
+	grid-gap: 25px;
+	height: 630px;;
+}
+.pic1{
+	border: 2px black solid;
+	background-image: url(../images/2.jpg);
+	width: 432px;
+}
+.pic2{
+	border: 2px black solid;
+	background-image: url(../images/3.jpg);
+}
+.pic3{
+	border: 2px black solid;
+	background-image: url(../images/4.jpg);
+}

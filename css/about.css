@@ -1,0 +1,72 @@
+body{
+	background-image: url(../images/7.jpg);
+}
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:5px;
+	background-color: slategray;
+	padding: 5px;
+}
+.logo{
+	background-image: url(../images/);
+}
+.button{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+.button li{
+	list-style: none;
+	border: 2px black solid;
+	padding: 20px;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+}
+.showcase{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-right: 2px black solid;
+	border-top: 2px black solid;
+	border-left: 2px black solid;
+	height: 60vh;
+	background-image: url(../images/6.jpg);
+	background-position: bottom;
+	background-repeat: no repeat;
+	background-size: cover;
+}
+.right{
+	background-image: url(../images/);
+}
+.article{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	padding: 15px;;
+	border: 2px black solid;
+	height: 60vh;
+}
+.pic{
+	grid-column: 1/2;
+	background-image: url(../images/5.jpg);
+	border: 2px black solid;
+	width: 365px;
+	height: 365px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no repeat;
+}
+.artl{
+	grid-column: 2/4;
+	border: 2px black solid;
+	color: gainsboro;
+	text-shadow: gray;
+}
+h3{
+	font-size: 30px;
+}
+p{
+	font-size: 30px;
+}
